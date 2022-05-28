@@ -1,185 +1,97 @@
-#footer-top-left{
-    font-size: small;
-    
-}
-#one{
-    min-height: 11.5vh;
-    background-color: rgba(69, 57, 212, 0.908);
-    border-radius:61% 39% 56% 44% / 99% 3% 97% 1% ;
-    text-align: center;
-    color: white;
-    
-    
-    
-}
-#two{
-    min-height: 11.5vh;
-    background-color: rgb(238, 238, 246);
-    border-radius: 60% 40% 0% 100% / 99% 0% 100% 1% ;
-    text-align: center;
-    color: grey;
-    
-}
-#three{
-    min-height: 11.5vh;
-    background-color: rgba(69, 57, 212, 0.908);
-    border-radius: 50% 50% 48% 52% / 48% 47% 53% 52% ;
-    text-align: center;
-    color: white;
-    
-}
-#four{
-    min-height: 11.5vh;
-    background-color: rgba(69, 57, 212, 0.908);
-    border-radius: 55% ;
-    text-align: center;
-    color: white;
-    
-}
-#five{
-    min-height: 11.5vh;
-    background-color: rgba(235, 235, 240, 0.908);
-    border-radius: 50% 50% 0% 100% / 100% 100% 0% 0%  ;
-    text-align: center;
-    color: gray;
-    
-}
-#six{
-    min-height: 11.5vh;
-    background-color: rgba(69, 57, 212, 0.908);
-    border-radius: 0% 100% 41% 59% / 100% 0% 100% 0%  ;
-    text-align: center;
-    color: white;
-    
-}
-#seven{
-    min-height: 11.5vh;
-    background-color: rgba(69, 57, 212, 0.908);
-    border-radius: 0% 100% 0% 100% / 57% 0% 100% 43%  ;
-    text-align: center;
-    color: white;
-    
-}
-#eight{
-    min-height: 11.5vh;
-    background-color: rgba(233, 232, 239, 0.908);
-    border-radius: 50% ;
-    text-align: center;
-    color: grey;
-    
-    
-}
-#nine{
-    min-height: 11.5vh;
-    background-color: rgba(69, 57, 212, 0.908);
-    border-radius: 0% 100% 45% 55% / 100% 0% 100% 0%  ;
-    text-align: center;
-    color: white;
-    
+/* buttons */
+.sign-in-button{
+    color:#0850f8;
+    background-color:white;
+    border-color: #0850f8;
+    border-radius: 15px;
+    height: 50px;
+    width: 125px;
 }
 
-#main-container{
-    margin-top: 5%;
-    
-    
-}
-.text-one{
-    margin-top: 55px;
-}
-.text-two{
-    margin-top: 55px;
-}
-.text-three{
-    margin-top: 55px;
-}
-.text-four{
-    margin-top: 55px;
-}
-.text-five{
-    margin-top: 55px;
-}
-.text-six{
-    margin-top: 55px;
-}
-.text-seven{
-    margin-top: 90px;
-}
-.text-eight{
-    margin-top: 55px;
-}
-.text-nine{
-    margin-top: 55px;
-    
-}
-#middle-section-text{
-    text-align: center;
-    border-top: 1px solid black;
-}
-.middle-section-text{
-    margin-top:50px;
-}
-#middle-section-icons{
-    margin-top: 1%;
-        
+.try-it-button{
+    color:white;
+    background-color: #0850f8;
+    border-color:#0850f8;
+    border-radius: 15px;
+    height: 50px;
+    width: 125px;
 }
 
-#icon-one{
-    height: 150px;
-    width: 150px;
+.sign-up-button{
+    color:white;
+    background-color: #0850f8;
+    border-color:#0850f8;
+    border-radius: 15px;
+    height: 85px;
+    width: 200px;
+}
+
+.chat-button{
+    color:#0850f8;
+    background-color:white;
+    border-color: #0850f8;
+    border-radius: 15px;
+    height: 85px;
+    width: 200px;
+}
+
+.get-started-button{
+    color:white;
+    background-color: #7fd126;
+    border-color: #7fd126;
+    border-radius:15px;
+    height: 50px;
+    width: 200px;
+    margin-right: 5%;
+}
+
+.chat-button2{
+    color:#0850f8;
+    background-color:white;
+    border-color: #0850f8;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+}
+
+/* nav bar */
+nav ul{
+    margin:0px;
+    list-style-type: none;
+    width:100%;
+    padding: 25px;
+}
+
+nav li{
+    display: inline;
+    margin:5%;
+}
+
+#logo{
+    height: 57px;
+    width: 213px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+/* header */
+.blurb{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#header-side{
+    margin-top:5%;
+}
+
+/* footer */
+footer{
+    background-color: #0850f8;
     color: white;
     text-align: center;
-    
-        
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
-#icon-two{
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    
-    
-}
-#icon-three{
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    
-}
-#icon-four{
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    
-}
-
-#card-container{
-    margin-left: 15%;
-    width: 1000px;
-    height: fit-content;
-}
-#card-container img{
-    height: 300px;
-    
-}
-.card-body{
-    color: white;
-}
-
-.card-text-small{
-    font-size: small;
-}
-
-#learn-more-button{
-    width: 30%;
-}
-
-.lower-section-text{
-    text-align: center;
-}
-
-#lower-section-icons{
-    text-align: center;
-}
-.image-top-right image{
-    height: 10px;
-}
-    
