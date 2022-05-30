@@ -1,20 +1,8 @@
-.flexcontainer{
-    display: flex;
-    justify-content: flex-end;
-}
-.empty{
-    width:80%;
-}
-.flex{
-    align-self: flex-end;
-    height: 50px;
-}
-
 
 .container{
-    background-color: purple;
     display: flex;
     height: 100%
+  
 }
 
 /* buttons */
