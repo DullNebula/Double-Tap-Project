@@ -1,0 +1,30 @@
+.flex-container {
+    display:flex;
+    width:100%;
+    justify-content:flex-start;
+    border: 5px rgb(255, 255, 255) solid;
+    }
+        /*GET RID OF THE BORDERS AFTERWARDS they're just so I can
+        keep track of the flexbox items*/
+    .flex-item-left{
+        background-color:none;
+        color:black;
+        border: solid black;
+        max-height:auto;
+        margin: 5%;
+        padding:2%;
+    
+    }  
+            
+    .form-control {
+        width: 300px;;
+    }
+    
+    .btn {
+        margin-left:;
+    }
+    
+    h1 {
+        font-weight:bold;
+    }
+    

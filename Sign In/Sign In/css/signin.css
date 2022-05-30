@@ -1,0 +1,43 @@
+.flex-container {
+display:flex;
+width:100%;
+flex-direction:row-reverse;
+justify-content:center;
+border: 5px rgb(255, 255, 255) solid;
+}
+    /*GET RID OF THE BORDERS AFTERWARDS they're just so I can
+    keep track of the flexbox items*/
+.flex-item-right{
+    background-color:none;
+    color:black;
+    border: solid black;
+    max-height:auto;
+    margin: 2%;
+    padding:2%;
+
+}
+    
+.flex-item-left{
+    background-color:none;
+    color:black;
+    border: solid black;
+    max-height:auto;
+    min-width:30vw;
+    max-width:30vw;
+    align-self:center;
+    margin: 2%;
+    padding:2%;
+}
+
+.flex-item-middle{
+    width:50%;
+}
+        
+.form-control {
+    width: 300px;
+}
+
+
+h1 {
+    font-weight:bold;
+}
