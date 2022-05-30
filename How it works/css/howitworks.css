@@ -24,7 +24,7 @@
     border-color: #0850f8;
     border-radius: 15px;
     height: 50px;
-    width: 125px;
+    width: 100px;
     transition: 0.4s;
 }
 
@@ -39,7 +39,7 @@
     border-color:#0850f8;
     border-radius: 15px;
     height: 50px;
-    width: 125px;
+    width: 100px;
     transition: 0.4s;
 }
 
@@ -68,7 +68,7 @@
     border-color: #0850f8;
     border-radius: 15px;
     height: 85px;
-    width: 200px;
+    width: 250px;
     font-size: 24px;
     transition: 0.4s;
 }
@@ -128,6 +128,7 @@ nav li{
 #logo{
     height: 57px;
     width: 213px;
+    margin-left: 5%;
 }
 
 nav a{
@@ -139,6 +140,19 @@ nav a{
 .blurb{
     margin-left: 10%;
     margin-top: 7%;
+}
+
+.blurb-1{
+    font-size: 74px;
+}
+
+.blurb-2{
+    font-size: 40px;
+}
+
+.blurb-3{
+    font-size: 20px;
+    color: gray;
 }
 
 #header-side{
