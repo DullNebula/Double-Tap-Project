@@ -114,6 +114,7 @@
 #middle-section-text{
     text-align: center;
     border-top: 1px solid black;
+   
 }
 .middle-section-text{
     margin-top:50px;
@@ -180,6 +181,6 @@
     text-align: center;
 }
 .image-top-right image{
-    height: 10px;
+    width: 10px;
 }
     
