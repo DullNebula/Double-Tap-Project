@@ -75,6 +75,11 @@
     background-color: white;
     color:#7fd126
 }
+#middle-section-text{
+    text-align: center;
+    border-top: 1px solid black;
+}
+   
 
 .chat-button2{
     color:#0850f8;
@@ -158,6 +163,9 @@ footer{
     padding-top: 5%;
     padding-bottom: 10%;
 }
+.image-top-right image{
+    width: 10px;
+}
 
 .b-dot{
     height: 8px;
@@ -173,4 +181,22 @@ footer{
     border-radius: 50%;
     display: inline-block;
     background-color: white
+}
+.middle-section-text{
+    margin-top: 5%;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: white;
+}
+.card-text-small{
+    color: white;
+}
+#middle-section-icons{
+    text-align: center;
+}
+.lower-section-text{
+    text-align: center;
 }
